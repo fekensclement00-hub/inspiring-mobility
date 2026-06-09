@@ -1,8 +1,11 @@
 # Inspiring Mobility
 
-A simple static website showcasing driver profiles.
+[![Netlify Status](https://img.shields.io/netlify/ed5069b8-a126-43a3-bd0f-0059a76998c5?label=Netlify%20Live&logo=netlify&style=for-the-badge)](https://inspiring-mobility.netlify.app)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-repo-181717?style=for-the-badge&logo=github)](https://github.com/fekensclement00-hub/inspiring-mobility)
 
-## Live site
+A clean static website that showcases driver profiles with responsive styling and accessible layout.
+
+## Live demo
 
 - https://inspiring-mobility.netlify.app
 
@@ -10,23 +13,32 @@ A simple static website showcasing driver profiles.
 
 - https://github.com/fekensclement00-hub/inspiring-mobility
 
-## Project files
+## What’s included
 
-- `index.html` — landing page and site entrypoint
-- `style.css` — responsive styling and layout
+- `index.html` — homepage and project entrypoint
+- `style.css` — responsive design, typography, and card layout
 - `drivers.html` — driver profile section content
 
-## Deployment
+## How to use
 
-This site is deployed to Netlify from the project root.
+Open `index.html` in a browser to view the site locally.
 
-To deploy again from this directory:
+## Deploying updates
+
+To deploy the latest changes from this directory:
 
 ```bash
 netlify deploy --prod --dir=. --message "Deploy latest site"
 ```
 
+If you want to preview before production, run:
+
+```bash
+netlify deploy --dir=. --message "Preview deploy"
+```
+
 ## Notes
 
-- The project is a static HTML/CSS site, no build step is required.
-- Netlify is linked to `inspiring-mobility` and uses the project root as the publish directory.
+- This is a static HTML/CSS site, so there is no build process required.
+- The project is already linked to Netlify as `inspiring-mobility`.
+- The production site is hosted at `https://inspiring-mobility.netlify.app`.
